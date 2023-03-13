@@ -24,3 +24,10 @@ var code;
     code[code["ok4"] = 300] = "ok4";
     code[code["ok5"] = 400] = "ok5";
 })(code || (code = {}));
+// 
+var uppercase = function (a) {
+    if (typeof a == "string") {
+        console.log(a.toLowerCase());
+    }
+    a.toLocaleString().toLowerCase();
+};

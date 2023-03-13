@@ -7,3 +7,4 @@ let stt: boolean = false;
 //null , undefined 
 num = null
 stt = undefined;
+
