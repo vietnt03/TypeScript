@@ -22,5 +22,5 @@ var admin = {
     email: "jane@example.com",
     role: ROLE.MANAGER
 };
-login(user); // prints "Welcome back"
-login(admin); // prints "Welcome to admin"
+login(user);
+login(admin);

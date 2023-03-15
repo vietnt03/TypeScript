@@ -9,6 +9,7 @@ enum ROLE {
     email: string;
   };
   
+  
   type Admin = User & {
     role: ROLE.MANAGER | ROLE.STAFF;
   };
@@ -34,6 +35,6 @@ enum ROLE {
     role: ROLE.MANAGER,
   };
   
-  login(user); // prints "Welcome back"
-  login(admin); // prints "Welcome to admin"
+  login(user); 
+  login(admin); 
   
