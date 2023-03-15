@@ -1,7 +1,7 @@
 
 
-const arrNum1 = [100,12,3,5] 
-const arrStr1 = ["abc","iphone","abc"];
+const arrNum = [100,12,3,5] 
+const arrStr = ["abc","iphone","abc"];
 
 
 function selectionSort<T>(arr: T[], callback: (a: T, b: T) => number): T[] {
@@ -20,15 +20,17 @@ function selectionSort<T>(arr: T[], callback: (a: T, b: T) => number): T[] {
     return arr;
   }
   function ascendingOrder(a: number, b: number): number {
-    return a - b;
+    return b - a;
   }
+
   
-  selectionSort(arrNum1, ascendingOrder);
-  console.log(arrNum1);
-  arrStr1.sort();
   
-  arrStr1.sort().reverse();
-  console.log(arrStr1);
+  selectionSort(arrNum, ascendingOrder);
+  console.log(arrNum);
+  arrStr.sort();
+  
+  arrStr.sort().reverse();
+  console.log(arrStr);
   
   
   

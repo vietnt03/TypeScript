@@ -1,5 +1,5 @@
-var arrNum1 = [100, 12, 3, 5];
-var arrStr1 = ["abc", "iphone", "abc"];
+var arrNum = [100, 12, 3, 5];
+var arrStr = ["abc", "iphone", "abc"];
 function selectionSort(arr, callback) {
     var _a;
     var len = arr.length;
@@ -13,10 +13,10 @@ function selectionSort(arr, callback) {
     return arr;
 }
 function ascendingOrder(a, b) {
-    return a - b;
+    return b - a;
 }
-selectionSort(arrNum1, ascendingOrder);
-console.log(arrNum1);
-arrStr1.sort();
-arrStr1.sort().reverse();
-console.log(arrStr1);
+selectionSort(arrNum, ascendingOrder);
+console.log(arrNum);
+arrStr.sort();
+arrStr.sort().reverse();
+console.log(arrStr);
