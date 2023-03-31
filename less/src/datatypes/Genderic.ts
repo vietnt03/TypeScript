@@ -19,7 +19,7 @@ function selectionSort<T>(arr: T[], callback: (a: T, b: T) => number): T[] {
     }
     return arr;
   }
-  function ascendingOrder(a: number, b: number): number {
+  function ascendingOrder1(a: number, b: number): number {
     return b - a;
   }
 
