@@ -29,8 +29,6 @@ function App() {
         <Route index path='/admin' element={<Productlist/>}/>
         <Route path='edit/:id' element={<Edit/>}/>
         <Route path='add' element={<Add/>}/>
-      
-   
       </Route>
      
     </Routes>

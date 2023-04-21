@@ -6,7 +6,7 @@ import { IProduct,addForm,updateForm } from "../models";
     return instance.get(uri)
 }
  const getById = (id:  string) => {
-    const uri = "/products/" + id
+    const uri = "/products/" + id   
     return instance.get(uri)
 }
  const update = (id: string, body: updateForm) => {
